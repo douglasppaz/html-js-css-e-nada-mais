@@ -1,0 +1,6 @@
+{
+  "title": "HTML, JS, CSS and nothing else",
+  "subtitle": "A talk by",
+  "sobre": "About",
+  "sobre-conteudo": "Having less code, fewer dependencies and more performance is always utopic for front-end web developers. \"HTML, JS, CSS and nothing else\" is a talk that advocates for optimized web applications and legible code, dispensing Javascript utilities (like jQuery, lodash and mootools) and often frameworks. The proposal is to end the talk with a web application with code and elegant UI using only native Javascript and CSS3."
+}

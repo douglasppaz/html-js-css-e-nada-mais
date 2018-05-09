@@ -1,0 +1,22 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: sans-serif;
+  font-weight: lighter;
+  color: #222;
+  background-color: #eee;
+}
+
+.container {
+  padding: .5rem;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.text-justify {
+  text-align: justify;
+}

@@ -1,0 +1,25 @@
+header {
+  background-color: #3498db;
+  color: white;
+  padding: 5rem .25rem;
+}
+
+header > h1,
+header > h2 {
+  margin: .5rem 0;
+}
+
+header > h1 {
+  text-align: center;
+  text-transform: uppercase;
+}
+
+header > h2 {
+  text-align: center;
+  font-size: 1.25rem;
+  font-weight: normal;
+}
+
+header > h2 > strong {
+  font-size: 1.5rem;
+}

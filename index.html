@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>HTML, Js, CSS e nada mais</title>
+  <link rel="stylesheet" href="css/main.css">
+  <link rel="stylesheet" href="css/header.css">
+  <link rel="stylesheet" href="css/nav.css">
+</head>
+
+<body>
+  <header>
+    <h1 data-translate="title">HTML, Js, CSS e nada mais</h1>
+    <h2><span data-translate="subtitle">Uma talk de</span> <strong>Douglas Paz</strong></h2>
+  </header>
+  <nav>
+    <ul class="navbar">
+      <li><a data-translate="sobre" href="#sobre">Sobre</a></li>
+      <li><a href="#traducoes">Traduções</a></li>
+      <li><a href="https://douglaspaz.com/" target="_blank">Douglas Paz</a></li>
+      <li><a href="https://github.com/douglasppaz/html-js-css-e-nada-mais/settings" target="_blank">GitHub</a></li>
+    </ul>
+  </nav>
+  <section id="sobre">
+    <div class="container">
+      <h1 data-translate="sobre">Sobre</h1>
+      <p data-translate="sobre-conteudo" class="text-justify">Ter menos código, menos dependências e mais desempenho é sempre utópico para desenvolvedores web front-end. "HTML, JS, CSS e nada mais" é uma talk que defende aplicações web otimizadas e de código legível, dispensando utilitários Javascript (como jQuery, lodash e mootools) e muitas vezes frameworks. A proposta é terminar a talk com uma aplicação web com código e UI elegante utilizando apenas Javascript nativo e CSS3.</p>
+    </div>
+  </section>
+  <section id="traducoes">
+    <div class="container">
+      <h1>Traduções</h1>
+      <p>Essa página é traduzida de forma dinâmica.</p>
+      <h2>Traduzir para:</h2>
+      <ul>
+        <li><a href="#" data-translate-to="en">English</a></li>
+        <li><a href="#" data-translate-clear>Versão original</a></li>
+      </ul>
+    </div>
+  </section>
+
+  <script src="js/translate.js"></script>
+  <script src="js/main.js"></script>
+</body>
+
+</html>
