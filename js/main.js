@@ -1,5 +1,7 @@
 var translate = new Translate({
   en: 'lang/en.json',
+}, () => {
+  new Toast('Página traduzida!', 2);
 });
 
 document.querySelectorAll('[data-translate-to]').forEach((element) => {
@@ -14,3 +16,5 @@ document.querySelectorAll('[data-translate-clear]').forEach((element) => {
     translate.clear();
   });
 });
+
+new Toast('Bem vindo!');

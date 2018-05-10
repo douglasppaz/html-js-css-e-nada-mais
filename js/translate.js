@@ -1,6 +1,7 @@
 class Translate {
-  constructor(languages) {
+  constructor(languages, callback) {
     this.languages = languages;
+    this.callback = callback;
   }
 
   to(lang) {
@@ -21,6 +22,9 @@ class Translate {
         this.render(element, data[key]);
       });
     });
+    if (this.callback) {
+      this.callback();
+    }
   }
 
   render(element, content) {

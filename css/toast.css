@@ -1,0 +1,51 @@
+.toast {
+  position: fixed;
+  bottom: 1rem;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 50%;
+  background-color: rgba(0, 0, 0, .95);
+  color: white;
+  padding: 1rem;
+  animation-name: toast-in;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+  animation-play-state: running;
+  animation-fill-mode: forwards;
+}
+
+@media screen and (max-width: 600px) {
+  .toast {
+    width: 80%;
+  }
+}
+
+.toast-out {
+  animation-name: toast-out;
+  animation-duration: 1s;
+  animation-iteration-count: 1;
+  animation-play-state: running;
+  animation-fill-mode: forwards;
+}
+
+@keyframes toast-in {
+  from {
+    bottom: -100%;
+    opacity: 0;
+  }
+  to {
+    bottom: 1rem;
+    opacity: 1;
+  }
+}
+
+@keyframes toast-out {
+  from {
+    bottom: 1rem;
+    opacity: 1;
+  }
+  to {
+    bottom: 4rem;
+    opacity: 0;
+  }
+}
